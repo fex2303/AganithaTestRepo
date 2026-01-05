@@ -8,7 +8,7 @@ export default class SampleController extends BaseController {
   }
 
   async method(req, res) {
-    let func = await this.sampleService.method()
+    res.send(200)
     
   }
 }
