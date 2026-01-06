@@ -222,7 +222,7 @@ async function createPaste() {
   };
 
   try {
-    const response = await fetch("http://localhost:3000/api/pastes", {
+    const response = await fetch("https://aganitha-test-repo.vercel.app/:3000/api/pastes", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(payload)
@@ -245,7 +245,7 @@ async function fetchPaste() {
   const pasteId = document.getElementById("pasteId").value;
 
   try {
-    const response = await fetch(`http://localhost:3000/api/pastes/${pasteId}`);
+    const response = await fetch(`https://aganitha-test-repo.vercel.app//api/pastes/${pasteId}`);
     const data = await response.json();
 
     if (!response.ok) {

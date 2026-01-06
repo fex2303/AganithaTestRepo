@@ -43,7 +43,7 @@ app.use((err, req, res, next) => {
 // ✅ Start server FIRST
 const PORT = process.env.PORT || 3000;
 const server = app.listen(PORT, () => {
-  console.log(`✅ Server running at http://localhost:${PORT}`);
+  console.log(`✅ Server running at PORT:${PORT}`);
 });
 
 // ✅ WebSocket AFTER server is created
