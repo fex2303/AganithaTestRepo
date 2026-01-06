@@ -15,3 +15,20 @@ after this you can access by just using localhost:3000 in any browser
 
 For setting up the codebase i used mvc architecture to make it scalable and robust and introduced 3 different endpoints to perform the required tasks
 
+
+the Curls which can be used are 
+
+curl --location 'localhost:3000/api/healthz'
+
+curl --location 'localhost:3000/api/pastes' \
+--header 'Content-Type: application/json' \
+--data '{
+    "pasteContent": "",
+    "ttl_seconds": "",
+    "max_views": ""
+}'
+
+curl --location 'localhost:3000/api/pastes/{pasteID}'
+
+curl --location 'localhost:3000/p/{pasteID}'
+
