@@ -19,13 +19,16 @@
   },
   "homepage": "https://github.com/fex2303/AganithaTestRepo#readme",
   "dependencies": {
-    "body-parser": "^2.2.1",
-    "compression": "^1.8.1",
+    "body-parser": "^1.20.2",
+    "chokidar": "^5.0.0",
+    "compression": "^1.7.4",
     "cors": "^2.8.5",
-    "dotenv": "^17.2.3",
-    "express": "^5.2.1",
-    "helmet": "^8.1.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.2",
+    "helmet": "^6.2.0",
     "http": "^0.0.1-security",
-    "mongoose": "^9.1.2"
+    "mongoose": "^6.13.8",
+    "nanoid": "^3.3.11",
+    "ws": "^8.19.0"
   }
 }
